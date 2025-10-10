@@ -37,7 +37,7 @@ function App() {
     {/* <Button label="Search" color="red"/>
     <Button /> */}
     <Car brand='Mahindra' model="ScorpioN" price="25lkh" />
-    <Car model="Harrier" price="22lkh" />
+    <Car model='Harrier' price="22lkh" />
     <Car brand='Force' model="Cruiser" price="15lkh" />
     </>
   )
