@@ -41,7 +41,7 @@ function App() {
 
   {    /* Conditional Rendering using if else.... inside fn*/  }
   if (isMorning) {
-    greeting = "Good Morning";
+    greeting = "Good Morning"
   } else {
     greeting = "Good Evening";
   }
