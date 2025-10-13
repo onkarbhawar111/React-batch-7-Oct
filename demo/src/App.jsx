@@ -43,7 +43,7 @@ function App() {
   if (isMorning) {
     greeting = "Good Morning"
   } else {
-    greeting = "Good Evening";
+    greeting = "Good Evening"
   }
   return (
     <>
