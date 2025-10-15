@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function UseState_Hook() {
-  let [count, setCount] = useState();
+  let [count, setCount] = useState(0); 
   // syntax: const [stateVariable, setStateFunction] = useState(initialValue)
 
   function increase() {
