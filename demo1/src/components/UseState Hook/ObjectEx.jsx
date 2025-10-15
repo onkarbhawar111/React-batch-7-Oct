@@ -9,7 +9,7 @@ function ObjectEx(){
     })
 
     function handleClick(){
-        setPerson({...person, city: "Mumbai"})    }
+        setPerson({...person, city: "Mumbai"})   }
 
     return(
         <>
