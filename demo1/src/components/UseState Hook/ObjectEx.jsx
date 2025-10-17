@@ -2,7 +2,7 @@ import { useState } from "react"
 
 function ObjectEx(){
 
-    const [person, setPerson]  = useState({
+    const [person, setPerson]  = useState({ 
         name: 'Onkar',
         city: "Pune",
         gender: 'male'
@@ -14,7 +14,7 @@ function ObjectEx(){
     return(
         <>
         <div>
-            <h2>Name: {person.name}</h2>
+            <h2>Name: {person.name} </h2>
             <h2>City: {person.city}</h2>
             <p>gender: {person.gender}</p>
         </div>
