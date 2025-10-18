@@ -14,7 +14,7 @@ function ObjectEx(){
     return(
         <>
         <div>
-            <h2>Name: {person.name} </h2>
+            <h2> Name: {person.name} </h2>
             <h2>City: {person.city} </h2>
             <p>gender: {person.gender} </p>
         </div>
