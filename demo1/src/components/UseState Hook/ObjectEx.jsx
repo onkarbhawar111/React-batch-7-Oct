@@ -16,7 +16,7 @@ function ObjectEx(){
         <div>
             <h2> Name: {person.name} </h2>
             <h2> City: {person.city} </h2>
-            <p>gender: {person.gender} </p>
+            <p> gender: {person.gender} </p>
         </div>
         <button onClick={handleClick}> Change City </button>
         </>
