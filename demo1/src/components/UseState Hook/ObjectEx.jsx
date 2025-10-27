@@ -30,4 +30,4 @@ function ObjectEx() {
     </>
   );
 }
-export default ObjectEx;
+export default ObjectEx
