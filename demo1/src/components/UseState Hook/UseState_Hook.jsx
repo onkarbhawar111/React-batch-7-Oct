@@ -10,6 +10,7 @@ function UseState_Hook() {
   const decrease = () =>{
     setCount(count - 1) //count = count - 1
   } 
+  console.log('first comp rendered....')
   return (
     <>
       <button onClick={decrease}>-</button> 

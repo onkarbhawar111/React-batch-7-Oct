@@ -5,6 +5,7 @@ function NameChange(){
     function handleClick(){
         name === 'Onkar' ? setName("Bhawar") : setName('Onkar')
     }
+    console.log('2nd component rendered....');
     return(
         <>
         <div>{name}</div>

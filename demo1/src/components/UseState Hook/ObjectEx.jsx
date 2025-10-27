@@ -1,25 +1,33 @@
-import { useState } from "react"
+import { useState } from "react";
 
-function ObjectEx(){
+function ObjectEx() {
+  const per = {
+    name: "Onkar",
+    city: "Pune",
+    gender: "male"
+  };
+  const [person, setPerson] = useState(per);
 
-    const [person, setPerson]  = useState({ 
-        name: 'Onkar',
-        city: "Pune",
-        gender: 'male'
-    })
+  function handleClick() {
+    setPerson({ ...person, city: "Mumbai" });
+    // setPerson({ 
+      
+    //    city: "Mumbai"
+       
+    // });
+  }
+  console.log('component rendered !!!')
+  console.log(person)
 
-    function handleClick(){
-        setPerson({...person, city: "Mumbai"})    }
-
-    return(
-        <>
-        <div>
-            <h2> Name: {person.name} </h2>
-            <h2> City: {person.city} </h2>
-            <p> gender: {person.gender} </p>
-        </div>
-        <button onClick={handleClick}> Change city </button>
-        </>
-    )
+  return (
+    <>
+      <div>
+        <h2> Name: {person.name} </h2>
+        <h2> City: {person.city} </h2>
+        <p> gender: {person.gender} </p>
+      </div>
+      <button onClick={handleClick}> Change city </button>
+    </>
+  );
 }
-export default ObjectEx
+export default ObjectEx;
