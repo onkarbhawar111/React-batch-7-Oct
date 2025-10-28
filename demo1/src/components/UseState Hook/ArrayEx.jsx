@@ -21,7 +21,7 @@ function ArrayEx() {
       name: "Rohit",
       city: "Nagpur",
     },
-  ];
+  ]  
   return (
     <>
       {/* <ul>
