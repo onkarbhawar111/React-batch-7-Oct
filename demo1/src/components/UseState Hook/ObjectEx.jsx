@@ -6,10 +6,10 @@ function ObjectEx() {
     city: "Pune",
     gender: "male"
   };
-  const [person, setPerson] = useState(per);
+  const [person, setPerson] = useState(per);  
 
   function handleClick() {
-    setPerson({ ...person, city: "Mumbai" });
+    setPerson({ ...person, city1: "Mumbai" });
     // setPerson({ 
       
     //    city: "Mumbai"
@@ -24,6 +24,7 @@ function ObjectEx() {
       <div>
         <h2> Name: {person.name} </h2>
         <h2> City: {person.city} </h2>
+        <h2> City1: {person.city1} </h2>
         <p> gender: {person.gender} </p>
       </div>
       <button onClick={handleClick}> Change city </button>
