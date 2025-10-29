@@ -20,7 +20,7 @@ function ArrayEx() {
       id: 104,
       name: "Rohit",
       city: "Nagpur",
-    },
+    }
   ]  ;
   return (
     <>
