@@ -16,7 +16,7 @@ function ArrayEx() {
     {
       id: 103,
       name: "Rutuja",
-      city: "Pune", 
+      city: "Pune ", 
     },
     {
       id: 104,
