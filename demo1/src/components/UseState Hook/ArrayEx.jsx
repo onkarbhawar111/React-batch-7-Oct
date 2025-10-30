@@ -11,7 +11,7 @@ function ArrayEx() {
     {
       id: 102,
       name: "Rohit",
-      city: "Shrirampur",
+      city: "Shrirampur", 
     },
     {
       id: 103,
