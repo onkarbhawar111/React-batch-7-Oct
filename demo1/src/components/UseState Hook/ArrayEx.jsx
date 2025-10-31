@@ -11,12 +11,12 @@ function ArrayEx() {
     {
       id: 102,
       name: "Rohit",
-      city: "Shrirampur", 
+      city: "Shrirampur",
     },
     {
       id: 103,
       name: "Rutuja",
-      city: "Pune ", 
+      city: "Pune ",
     },
     {
       id: 104,
@@ -76,7 +76,7 @@ function ArrayEx() {
           );
         })}
       </ol> */}
-      <ul>
+      {/* <ul>
         {products.map((product) => {
           return (<ArrayEx_Child
             key={product.id}
@@ -85,7 +85,29 @@ function ArrayEx() {
             isAvailable={product.isAvailable}
           />);
         })}
-      </ul>
+      </ul> */}
+      <table border={1}>
+        <thead>
+          <tr>
+            <th>Sr. no.</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Availability</th>
+          </tr>
+        </thead>
+        <tbody>
+          {products.map((product) => {
+            return (
+              <tr key={product.id}>
+                <td>{product.id}</td>
+                <td>{product.name}</td>
+                <td>{product.price}</td>
+                <td>{product.isAvailable == true ? "✔" : "❌"}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
     </>
   );
 }
