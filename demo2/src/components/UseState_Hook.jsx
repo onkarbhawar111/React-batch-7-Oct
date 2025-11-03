@@ -10,6 +10,6 @@ function UseState_Hook(){
            <button onClick={()=>{setCount(count+1)}}>+</button> 
         </>    //count=count+1
     )
-}
+} 
 
 export default UseState_Hook
