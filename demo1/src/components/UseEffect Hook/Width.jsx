@@ -12,7 +12,7 @@ function Width(){
         return ()=>{
             window.removeEventListener('resize', handleResize)
         }
-    })
+    }, [width])
     return(
         <>
         <h1>Screen width: {width}</h1>

@@ -11,6 +11,7 @@ import HomePage from "./components/UseEffect Hook/HomePage";
 import AboutPage from "./components/UseEffect Hook/AboutPage";
 import TimerExample from "./components/UseEffect Hook/TimerExample";
 import Width from "./components/UseEffect Hook/Width";
+import Parent from "./components/Context/Parent";
 
 function App(){
 
@@ -25,7 +26,8 @@ function App(){
     {/* <button onClick={handleChange}>Change Page</button>
     <div>{toggle == true ? <HomePage /> : <AboutPage />}</div> */}
     {/* <Width /> */}
-      <TimerExample />
+      {/* <TimerExample /> */}
+      <Parent />
     </>
   )
 }
