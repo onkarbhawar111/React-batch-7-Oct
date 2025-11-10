@@ -9,7 +9,7 @@ function ObjectEx() {
   const [person, setPerson] = useState(per);  
 
   function handleClick() {
-    setPerson({ ...person, city1: "Mumbai" });
+    setPerson({ ...person, city: "Mumbai" });
     // setPerson({ 
       
     //    city: "Mumbai"

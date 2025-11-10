@@ -6,8 +6,8 @@ const data = React.createContext();
 const data1 = React.createContext();
 
 function Parent() {
-  let fname = "Onkar";
-  let lname = 'Bhawar !!!'
+  let fname = "Onkar1111";
+  let lname = 'Bhawar';
   return (
     <>
     {/* //provide context */}
@@ -18,7 +18,6 @@ function Parent() {
       </data.Provider>
     </>
   );
-  
 }
 
 export default Parent;
