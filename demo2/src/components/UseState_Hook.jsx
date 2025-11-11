@@ -8,7 +8,7 @@ function UseState_Hook(){
         <>
            <div>Count: {count}</div>
            <button onClick={()=>{setCount(count+1)}}>+</button> 
-        </>    //count=count+1
+        </>    
     )
 }
 
