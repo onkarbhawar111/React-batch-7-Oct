@@ -1,0 +1,33 @@
+import React from 'react'
+
+const LazyComponent = () => {
+  return (
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies odio nec ligula pulvinar, a condimentum neque dictum. Donec sagittis fringilla erat, porttitor eleifend nulla tincidunt vulputate. Pellentesque et justo eget neque pretium vestibulum. Nulla id ligula a mi aliquam porta a sit amet nunc. Sed ut nibh eu lacus tristique posuere. Phasellus et ante et purus ultrices pharetra. Cras sodales odio eu diam vehicula ullamcorper. Donec nec lacinia sapien. Donec elementum velit vitae felis tempus blandit. Mauris eu lobortis ipsum, sit amet hendrerit quam. Nulla arcu lectus, lacinia a malesuada eget, tempor id neque. Nullam quis vestibulum sem. Praesent tincidunt convallis est, ut eleifend nisl sollicitudin quis. Phasellus ac ornare est. Phasellus mattis arcu blandit, pretium neque ac, ultrices lacus.
+
+Aenean condimentum urna malesuada massa eleifend sagittis a eget mauris. Ut arcu libero, tempor sagittis mi et, tincidunt pretium nunc. Donec luctus diam eget felis venenatis sodales. Nulla non massa maximus, accumsan ligula et, dignissim est. Quisque sed libero et mauris pellentesque tempor. Ut tempor purus a arcu laoreet, non porta magna auctor. Aliquam non arcu ut nunc congue accumsan. Cras ac sem sed augue semper dapibus. Sed elementum nisi iaculis tellus consequat, vitae mollis magna blandit. Nulla vitae ligula neque.
+
+Nullam vitae enim mattis, facilisis ligula et, pretium arcu. Sed interdum urna non eros hendrerit tempus. Donec nec ultricies lectus, in vestibulum neque. Integer hendrerit lacus non congue tincidunt. Maecenas eu ante posuere, rutrum arcu vitae, vestibulum dolor. Aenean pharetra sem odio, eu faucibus lectus bibendum ac. Donec venenatis auctor lacus fermentum consequat. Aliquam tempus egestas lacus at tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer pellentesque ex in massa facilisis consequat. Vivamus sed consectetur elit, id iaculis nibh. Ut lobortis orci sit amet augue maximus ultricies. Fusce vestibulum tortor et orci gravida ornare. Suspendisse pellentesque justo ac nisl lacinia lobortis.
+
+Praesent ut mauris luctus lacus imperdiet consectetur. Morbi fringilla lacus vel sapien fringilla posuere. Phasellus rutrum libero ut finibus suscipit. Etiam lobortis tellus diam, in finibus tellus porta vitae. Maecenas ac viverra eros, nec maximus metus. Integer placerat fringilla eros, a pretium justo commodo vitae. Maecenas mollis posuere erat in lacinia. Integer pharetra odio non justo porta, eu rhoncus magna viverra. Fusce sed purus eu mi rhoncus rhoncus. Integer nec tincidunt lacus. Phasellus porttitor felis at orci malesuada malesuada. Duis ultricies augue non mi sollicitudin finibus. Integer finibus tempus nisi imperdiet faucibus. Mauris volutpat odio nunc, id rhoncus sapien molestie ut.
+
+Sed rutrum urna sit amet dapibus tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec in vulputate massa. Mauris lobortis cursus sapien. Morbi lobortis augue non posuere mattis. Maecenas vel tincidunt eros. Vestibulum at turpis elit. Proin vitae scelerisque est. Mauris consequat tincidunt ligula a tempus. Integer nec efficitur tellus, ut pellentesque magna. Nullam id tellus arcu. Sed vulputate odio at imperdiet congue. Nullam porttitor in purus non eleifend.
+
+Pellentesque at mauris placerat, semper dui eu, lacinia nisi. Integer imperdiet maximus ante, a malesuada quam placerat sed. Suspendisse pellentesque fermentum semper. Donec nunc ante, tempus sit amet nisl vitae, scelerisque varius mi. Mauris consequat ex sed sollicitudin sagittis. In vitae pretium nibh. In scelerisque purus sed semper egestas. Curabitur fringilla varius augue, ac rutrum leo facilisis eget. Fusce ac vestibulum justo. Aenean quis urna a elit vestibulum rhoncus iaculis ut enim.
+
+Quisque erat turpis, congue nec rhoncus ut, placerat a sapien. Proin et justo sit amet nisi lacinia pellentesque eu ut urna. Donec vulputate erat sit amet ligula vestibulum malesuada. Proin aliquet libero diam. Morbi diam orci, volutpat sed nibh id, pretium bibendum velit. In hac habitasse platea dictumst. Aliquam efficitur ultricies felis vel venenatis. Sed aliquam nec felis ut eleifend. Quisque diam purus, accumsan at ex at, vulputate commodo ligula. Integer cursus cursus est egestas interdum. Phasellus euismod justo a ex lobortis posuere. Fusce fermentum massa massa, et euismod erat accumsan et. Vestibulum commodo suscipit neque. Morbi ultricies, risus id auctor posuere, eros nulla facilisis sapien, eu iaculis felis ligula quis ipsum. Donec vel mattis metus, ut accumsan ipsum. Etiam laoreet quis leo iaculis tristique.
+
+Nulla eleifend felis augue, et consectetur justo convallis varius. Phasellus bibendum scelerisque mauris et egestas. Integer bibendum porta imperdiet. Duis egestas ligula a euismod aliquam. Suspendisse potenti. Pellentesque diam odio, tincidunt ut augue a, porttitor lacinia elit. Fusce mollis varius vehicula. Quisque vitae augue sed augue tempus aliquet ac at diam. Praesent tincidunt eget nisi sit amet pretium. Fusce venenatis, erat sit amet ullamcorper malesuada, ante nisi rutrum magna, eget scelerisque leo tellus non mauris. Vestibulum nec finibus arcu. Donec interdum erat sed turpis elementum suscipit. Etiam sagittis felis at urna interdum euismod.
+
+Praesent purus odio, dictum vel molestie at, placerat ac nibh. Etiam at nisi eu tellus mollis tempus. Ut pellentesque hendrerit mauris, vitae bibendum massa imperdiet non. Duis ultricies rhoncus facilisis. Cras in pellentesque odio, eu sagittis magna. Vestibulum lobortis mi at felis viverra gravida. Quisque id erat sapien. Sed mauris dui, congue in pretium gravida, pellentesque quis eros.
+
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum nec mi a magna rhoncus bibendum eget at enim. Phasellus scelerisque enim lacus, ut suscipit enim aliquet sed. Nulla quis libero ac leo iaculis posuere sed in augue. Donec placerat vitae mi eget posuere. Quisque nibh ipsum, vehicula non pulvinar sed, efficitur et elit. Morbi porttitor convallis erat, vitae feugiat urna. Nam fringilla viverra elit ut hendrerit. Phasellus dui arcu, commodo eget mi et, viverra viverra orci.
+
+Generated 10 paragraphs, 914 words, 6229 bytes of Lorem Ipsum
+        </p>
+    </div>
+  )
+}
+
+export default LazyComponent

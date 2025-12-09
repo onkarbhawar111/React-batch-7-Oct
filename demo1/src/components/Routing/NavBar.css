@@ -1,0 +1,24 @@
+*{
+    margin: 0;padding: 0;
+}
+
+ul{
+    background-color: black;
+    list-style: none;
+    display:  flex;
+    gap: 20px;
+}
+
+
+ul a{
+
+    color: #fff;
+}
+
+.red{
+    background-color: red;
+}
+
+nav{
+    margin-bottom: 10px;
+}

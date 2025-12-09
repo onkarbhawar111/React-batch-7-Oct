@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn1 button{
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.btn2 button{
+    border: none;
+    width: 60%;
+    padding: 4px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btns .btn2{
+    display: flex;
+    justify-content: center;
+}
+.btns .btn1{
+    display: flex;
+    justify-content: center;
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 40px;
+}
+.form_control input{
+    position: absolute;
+    top: 13px;
+    right: 30px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    z-index: 2;
+    height: 40px;
+}
+.form_control textarea{
+    position: absolute;
+    top: 13px;
+    left: -10px;
+    background-color: transparent;
+    z-index: 2;
+    padding-top: 10px;
+}
+
+.form_control label{
+    background-color: white;
+    width: 50px;
+    z-index: 11;
+}
+    
+.submit button{
+    margin-top: 20px;
+}

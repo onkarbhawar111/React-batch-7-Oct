@@ -1,18 +1,26 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 function Test1() {
+
+  const [apiData, setApiData] = useState([])
+
   useEffect(() => {
     async function handleData() {
       const result = await fetch("https://jsonplaceholder.typicode.com/users");
-      const data = result.json()
-      console.log(data);
+      const data = await result.json()
+      setApiData(data)
+      // console.log(apiData);
     }
     handleData()
   });
 
   return (
     <>
-      {/* <button onClick={handleData}>Get Data</button> */}
+      <ul>
+        {apiData.map((item)=>{
+          return <li key={item.id}>{item.id}. {item.name}</li>
+        })}
+      </ul>
     </>
   );
 }

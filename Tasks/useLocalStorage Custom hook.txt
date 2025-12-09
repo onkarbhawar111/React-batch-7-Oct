@@ -1,0 +1,24 @@
+Task:
+Create a custom React Hook named useLocalStorage that allows components to store and retrieve data from the browser’s localStorage.
+
+Requirements:
+
+The hook should:
+
+Accept two parameters:
+
+key → the name of the local storage item
+
+initialValue → the default value if no stored data exists
+
+Return an object containing:
+
+value → the current stored value
+
+setStoredValue → a function to update both the React state and the localStorage.
+
+When the component using the hook updates the value, it should automatically save it to localStorage.
+
+When the page reloads, the component should display the last saved value from localStorage.
+
+Add a button to remove the saved item from localStorage.
