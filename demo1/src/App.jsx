@@ -34,11 +34,13 @@ import Loading_State from './components/API Fetching/Loading_State'
 import CRUD_Operation from './components/API Fetching/CRUD_Operation'
 import Pagination from './components/API Fetching/Pagination'
 import FormValidation from './components/Form Validation/FormValidation'
+import UseState_Hook from './components/UseState Hook/UseState_Hook'
+import { Counter } from './components/REDUX/Counter'
 
 const App = () => {
   return (
     <div>
-      <FormValidation />
+      <Counter />
     </div>
   )
 }
