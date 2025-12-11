@@ -35,12 +35,14 @@ import CRUD_Operation from './components/API Fetching/CRUD_Operation'
 import Pagination from './components/API Fetching/Pagination'
 import FormValidation from './components/Form Validation/FormValidation'
 import UseState_Hook from './components/UseState Hook/UseState_Hook'
-import { Counter } from './components/REDUX/Counter'
+import UseReducer_Hook from './components/UseReduces Hook/UseReducer_Hook'
+import Counter from './components/REDUX/Zustand/Counter'
+import Tailwind from './components/Tailwind CSS/Tailwind'
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      <Tailwind />
     </div>
   )
 }
