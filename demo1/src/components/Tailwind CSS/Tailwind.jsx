@@ -12,7 +12,7 @@ const Tailwind = () => {
     <div className="text-white ">
         <div className="flex justify-between">
         <div className="font-bold text-2xl">OnkarTech</div>
-        <div className="p-2" onClick={handleClick}>{toggle ? <IoMdClose /> : <IoMenu />}</div>
+        <div className="" onClick={handleClick}>{toggle ? <IoMdClose /> : <IoMenu />}</div>
         </div>
         <div className={toggle ? 'fixed border-r border-r-gray-700 p-4 ease-in-out duration-500' : 'fixed -left-full'}>
             <ul>
